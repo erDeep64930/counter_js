@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    gap: 5rem;
+    background-image: linear-gradient(red,blue,green,orange);
+}
+.counter{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+   
+}
+.btn {
+    padding: 1rem;
+    border-right: 2px solid gray;
+}
+.display {
+    padding: 1rem ;
+    font-weight: bold;
+}
